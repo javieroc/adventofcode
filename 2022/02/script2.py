@@ -1,5 +1,3 @@
-from typing import Literal
-
 values: dict[str, int] = {
     'A': 1, # Rock
     'B': 2, # Paper
@@ -39,8 +37,6 @@ def solve():
         print(value)
         sum += value
     print(sum)
-
-
 
 
 solve()
