@@ -10,8 +10,6 @@
  1   2   3   4   5   6   7   8   9
 '''
 
-import json
-
 
 def execute_instruction_1(data: dict[int, list[str]], instruction: list[int]):
     [num_crates, from_stack, to_stack] = instruction
